@@ -9,59 +9,60 @@ Languages/tools/editors:
 Algorithm(s):                                                                                                      
 
 START
-•	Global Variables : double weight[15], int i 
-•	Declare function min_max() 
-•	Local variables : int min, max,sum,count = 0, double avg = 0;
-•	Assign value min, max = weight[0]
-•	FOR(int j = 0; j < i; j++)
-•	Increment count, sum+=weight[j]
-•	IF weight[j] > max
-•	THEN, max = weight[j]
-•	IF weight[j] < min
-•	THEN, min = weight[j]
-•	END IF
-•	ELSE IF weight[j] < min
-•	THEN, min = weight[j]
-•	END ELSE IF
-•	END FOR
-•	AVERAGE = SUM/COUNT
-•	PRINT maximum and minimum values and the average of the values entered
-•	END function min_max()
-•	Declare function convert_pounds() 
-•	FOR (i=0; i<15; i++)
-•	Read weight
-•	Write weight
-•	IF (weight > 0)
-•	THEN, Write 2.2046*weight (value in kilograms)
-•	ELSE, call function min_max()
-•	BREAK LOOP
-•	END IF
-•	END FOR
-•	END function convert_pounds()
-•	Declare function convert_kilograms() 
-•	FOR (i=0; i<15; i++)
-•	Read weight
-•	Write weight
-•	IF (weight > 0)
-•	THEN, Write weight/2.2046 (value in pounds)
-•	ELSE, call function min_max()
-•	BREAK LOOP
-•	END IF
-•	END FOR
-•	END function convert_kilograms()
-•	Declare MAIN ()
-•	PRINT name and information 
-•	Local variables : int option
-•	DO
-•	Print Menu
-•	Read option
-•	Write option
-•	SWITCH(option)
-•	Case 1: Call convert_pounds()
-•	Case 2: Call convert_kilograms()
-•	END SWITCH
-•	WHILE option != 0
-•	END DO-WHILE
+1.	Global Variables : double weight[15], int i 
+2.	Declare function min_max() 
+3.	Local variables : int min, max,sum,count = 0, double avg = 0;
+4.	Assign value min, max = weight[0]
+5.	FOR(int j = 0; j < i; j++)
+6.	Increment count, sum+=weight[j]
+7.	IF weight[j] > max
+8.	THEN, max = weight[j]
+9.	IF weight[j] < min
+10.	THEN, min = weight[j]
+11.	END IF
+12.	ELSE IF weight[j] < min
+13.	THEN, min = weight[j]
+14.	END ELSE IF
+15.	END FOR
+16.	AVERAGE = SUM/COUNT
+17.	PRINT maximum and minimum values and the average of the values entered
+18.	END function min_max()
+19.	Declare function convert_pounds() 
+20.	FOR (i=0; i<15; i++)
+21.	Read weight
+22.	Write weight
+23.	IF (weight > 0)
+24.	THEN, Write 2.2046*weight (value in kilograms)
+25.	ELSE, call function min_max()
+26.	BREAK LOOP
+27.	END IF
+28.	END FOR
+29.	END function convert_pounds()
+30.	Declare function convert_kilograms() 
+31.	FOR (i=0; i<15; i++)
+32.	Read weight
+33.	Write weight
+34.	IF (weight > 0)
+35.	THEN, Write weight/2.2046 (value in pounds)
+36.	ELSE, call function min_max()
+37.	BREAK LOOP
+38.	END IF
+39.	END FOR
+40.	END function convert_kilograms()
+41.	Declare MAIN ()
+42.	PRINT name and information 
+43.	Local variables : int option
+44.	DO
+45.	Print Menu
+46.	Read option
+47.	Write option
+48.	SWITCH(option)
+49.	Case 1: Call convert_pounds()
+50.	Case 2: Call convert_kilograms()
+51.	END SWITCH
+52.	WHILE option != 0
+53.	END DO-WHILE
+
 END
 
 The functions (prototypes) and their description:
